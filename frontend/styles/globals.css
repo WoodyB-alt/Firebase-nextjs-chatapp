@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 body {
   margin: 0px;
   font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -6,33 +7,76 @@ body {
 .page {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(247,247,248);
+  background: linear-gradient(to left, #ab68ca, #de67a3); 
   text-align: center;
   display: table-cell;
   vertical-align: middle;     
 }
 
 /* Auth Page */
-.logo {
-  font-size: 32px; 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+}
+.logo1 {
+  font-size: 52px; 
   padding-bottom: 12px;
+  margin-left: 600px;
+  transition: all 300ms ease-out;
+}
+.logo2 {
+  font-size: 52px; 
+  padding-bottom: 12px;
+  transition: all 300ms ease-out;
+}
+.logo3 {
+  font-size: 52px; 
+  padding-bottom: 12px;
+  margin-right: 600px;
+  transition: all 300ms ease-out;
 }
 .text {
   padding-bottom: 12px;
+  color: #ffffff;
 }
 .button {
-  background-color: #10a37f;
+  background-color: #e904e9;
   border: none;
   padding: .5rem .75rem;
+  margin-right: 1rem;
   color: white;
   font-size: .875rem;
   border-radius: .25rem;
   cursor: pointer;
+  box-shadow: 5px 5px #e904e9a9, 10px 10px #e904e96d, 15px 15px #e904e94d;
 }
 .button:hover {
-  background-color: #10886a;
+  background-color: #ab68ca;
+}
+.logo1:hover {
+  transform: scale(1.5);
+  transition: all 300ms ease-in;
+}
+.logo2:hover {
+  transform: scale(1.5);
+  transition: all 300ms ease-in;
+}
+.logo3:hover {
+  transform: scale(1.5);
+  transition: all 300ms ease-in;
 }
 
+.login-text {
+  font-family: 'Montserrat',sans-serif,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 60px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  color: #ffffff;
+}
+
+/* ChatsPage*/
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* make scrollbar invisible */

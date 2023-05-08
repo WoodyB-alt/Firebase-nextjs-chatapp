@@ -8,8 +8,12 @@ export default function AuthPage() {
 
   return (
     <div className="page">
-      <div className="logo">👋 💬 🤖 </div>
-      <div className="text">Welcome to ChatRCE</div>
+      <div className="login-text">Welcome to Blake's Interview presentation demo! </div>  
+      <div className="grid">
+        <div className="logo1">👋 </div>
+        <div className="logo2">💬</div>
+        <div className="logo3">🤖</div>
+      </div>
       <div className="text" style={{ paddingBottom: "16px" }}>
         Log in with your account to continue
       </div>
