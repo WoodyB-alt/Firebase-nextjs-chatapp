@@ -18,27 +18,32 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 10fr);
 }
+
 .logo1 {
   font-size: 52px; 
   padding-bottom: 12px;
   margin-left: 600px;
   transition: all 300ms ease-out;
 }
+
 .logo2 {
   font-size: 52px; 
   padding-bottom: 12px;
   transition: all 300ms ease-out;
 }
+
 .logo3 {
   font-size: 52px; 
   padding-bottom: 12px;
   margin-right: 600px;
   transition: all 300ms ease-out;
 }
+
 .text {
   padding-bottom: 12px;
   color: #ffffff;
 }
+
 .button {
   background-color: #e904e9;
   border: none;
@@ -50,17 +55,21 @@ body {
   cursor: pointer;
   box-shadow: 5px 5px #e904e9a9, 10px 10px #e904e96d, 15px 15px #e904e94d;
 }
+
 .button:hover {
   background-color: #ab68ca;
 }
+
 .logo1:hover {
   transform: scale(1.5);
   transition: all 300ms ease-in;
 }
+
 .logo2:hover {
   transform: scale(1.5);
   transition: all 300ms ease-in;
 }
+
 .logo3:hover {
   transform: scale(1.5);
   transition: all 300ms ease-in;
