@@ -1,6 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+
+//link the Firebase project in NextJS with environment variables
+
 const firebaseConfig = {
     apiKey: "AIzaSyChLM4OXsDcznST56XcfNW5B_ydgzMmu7E",
 
